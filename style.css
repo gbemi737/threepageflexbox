@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,400;1,600&display=swap');
+body {
+  background-color: #ACC27B;
+}
+.menu{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  background-color: #738252;
+}
+.mainContainer{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 150px;
+  color: #2D3320;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+.navLink{
+  color: #000000;
+  font-size: 35px;
+  text-decoration: none;
+}
+.otherpageheader{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 65px;
+  color: #2D3320;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+.afrogirl{
+  z-index: -1;
+  background-image: url("afrogirl.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+  opacity: 0.4;
+}
